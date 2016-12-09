@@ -113,7 +113,7 @@ $bgColor = htmlentities($_GET["lstBgColor"], ENT_QUOTES, "UTF-8");
 $float = htmlentities($_GET["radFloat"], ENT_QUOTES, "UTF-8");
 $margin = htmlentities($_GET["radMargin"], ENT_QUOTES, "UTF-8");
 if ($submitted == "submit"){
-    print "<a href='html.php?col=". $color . "&bgCol=" . $bgColor . "&float=" . $float . "&margin=" . $margin . "'>Check it out!</a>";
+    print "<a href='css.php?col=". $color . "&bgCol=" . $bgColor . "&float=" . $float . "&margin=" . $margin . "'>Check it out!</a>";
 }
 
 
